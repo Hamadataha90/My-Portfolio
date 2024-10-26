@@ -53,7 +53,7 @@ function ResumeNew() {
 
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button onClick={handlePrevPage} disabled={pageNumber === 1}>
-            Previous <
+            < Previous 
           </Button>
           <Button onClick={handleNextPage} disabled={pageNumber === 2}>
              Next >
